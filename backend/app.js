@@ -10,9 +10,13 @@ const app = express();
 
 // Middleware
 app.use(cors({
-  origin: ['https://tour-360-mocha.vercel.app'], // chỉ cho phép từ frontend Vercel
+  origin: [
+    'https://tour-360-1.onrender.com', // frontend Render
+    'https://tour-360-mocha.vercel.app' // nếu có cả Vercel
+  ],
   credentials: true
 }));
+
 
 app.use(bodyParser.json());
 
