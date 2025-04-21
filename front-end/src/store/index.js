@@ -2,6 +2,8 @@ import { createStore } from 'vuex'
 // Create a new store instance.
 import createPersistedState from 'vuex-persistedstate';
 import axios from 'axios';
+const baseURL = import.meta.env.VITE_API_BASE_URL;
+
 
 const store = createStore({
   state: {
@@ -51,7 +53,7 @@ const store = createStore({
       try {
         console.log('adminLogin action được gọi với:', { username, password })
         
-        const response = await axios.post('http://localhost:3000/api/admin/login', {
+        const response = await axios.post('${baseURL}/admin/login', {
           username,
           password
         });
@@ -61,7 +63,7 @@ const store = createStore({
         if (response.data.token) {
           commit('setAdminToken', response.data.token);
           // Lấy thông tin admin
-          const adminResponse = await axios.get('http://localhost:3000/api/admin/me', {
+          const adminResponse = await axios.get('${baseURL}/admin/me', {
             headers: {
               Authorization: `Bearer ${response.data.token}`
             }
@@ -81,7 +83,7 @@ const store = createStore({
     },
     async getAdminProfile({ commit, state }) {
       try {
-        const response = await axios.get('http://localhost:3000/api/admin/me', {
+        const response = await axios.get('${baseURL}/admin/me', {
           headers: {
             Authorization: `Bearer ${state.adminToken}`
           }

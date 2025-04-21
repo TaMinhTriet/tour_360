@@ -1,7 +1,7 @@
 import createApiClient from "./api.service";
 
 class AdminService {
-    constructor(baseUrl = import.meta.env.VITE_API_BASE_URL + "/api/admin") {
+    constructor(baseUrl = import.meta.env.VITE_API_BASE_URL + "/admin") {
         this.api = createApiClient(baseUrl);
     }
 

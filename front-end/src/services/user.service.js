@@ -1,7 +1,7 @@
 import createApiClient from "./api.service";
 
 class UserService {
-    constructor(baseUrl = import.meta.env.VITE_API_BASE_URL + "/api/user") {
+    constructor(baseUrl = import.meta.env.VITE_API_BASE_URL + "/user") {
         this.api = createApiClient(baseUrl);
     }
     async getMe() {
