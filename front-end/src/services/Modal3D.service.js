@@ -1,6 +1,6 @@
 import createApiClient from "./api.service";
 class HangHoaService {
-    constructor(baseUrl="http://localhost:3000/api/book"){
+    constructor(baseUrl=import.meta.env.VITE_API_BASE_URL + "/book"){
         this.api = createApiClient(baseUrl);  // axios.create bên api.service
     }
     // các hàm tương tác với backend contact
