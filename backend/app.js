@@ -9,7 +9,11 @@ require('dotenv').config();
 const app = express();
 
 // Middleware
-app.use(cors());
+app.use(cors({
+  origin: ['https://tour-360-mocha.vercel.app'], // chỉ cho phép từ frontend Vercel
+  credentials: true
+}));
+
 app.use(bodyParser.json());
 
 // Định nghĩa các route
