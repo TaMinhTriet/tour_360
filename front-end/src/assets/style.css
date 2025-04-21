@@ -1,0 +1,297 @@
+body{
+    font: 1.2em Helvetica, arial, sans-serif;
+    background-color: rgb(211, 219, 226);
+    color: #0f0f0f;
+ 
+}
+header {
+    padding-bottom: 0.5rem;
+    background-color:   #6ca8af;
+  
+}
+#menu {
+    padding-top: 2rem; 
+    border: 5px;
+    font-weight: 500;
+    padding-left: 2.5rem;
+    padding-right: 2rem;
+}
+
+#menu a {
+    color: black;
+    text-decoration: none;
+    margin-left: 1rem;
+    font-size: large;
+}
+#menu a:hover{ 
+    margin-left: 0.5rem;
+    color: white;
+    font-weight: bolder;
+    font-size: large;
+  
+}
+#menu .logo{
+    padding-top: 0px;
+    padding-bottom: 0px;
+    background-color:0b9b8a
+    
+}
+
+#menu .icon-cart{
+    font-size: large;
+    color: white;
+    text-decoration: none;
+    margin-right: 0rem;
+    padding: 0.5rem;
+    border-radius: 5px;
+    background-color: #24696a;
+    text-shadow: 3px 4px 7px rgba(81,67,21,0.8);
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+}
+
+#menu .iconadmin{
+    margin-right: 1.5rem;
+}
+#form-search{
+    margin-right: 0.2rem;
+}
+#form-search .icon-search{
+    color: white;
+    background-color: #2b7778;
+    border-radius: 5px;
+    font-weight: bolder; 
+    text-shadow: 3px 4px 7px rgba(81,67,21,0.8);
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+}   
+
+
+#menu img{
+    margin: 0;
+}
+#nguoidung{
+    margin-left: 0.2rem;
+    margin-right: 1.8rem;
+    max-width: max-content;
+}
+
+
+/* sile */
+#sile-section img{
+    height: 30rem;
+    width: 100%;
+}
+/* footer */
+#lkfooter{
+    background-color:  #8eb9be; 
+    height: 23rem;
+    padding-top: 2rem;
+    color:  black;
+    font-weight: 500;
+}
+#lkfooter .copy{
+    color: rgb(57, 55, 55);
+    margin-bottom: 1rem;
+    margin-top: 5px;
+}
+#lkfooter a{
+    color: rgb(0, 0, 0);
+    font-weight: 600;
+    margin-bottom: 2px;
+    /*  text-shadow: 3px 4px 7px rgba(81,67,21,0.8); */
+    text-decoration: none;
+}
+#lkfooter a:hover{
+    color: white;
+    font-weight: bolder;
+}
+
+/* đăng nhập*/
+.bieumau{
+    background-color: #FFF;
+    border: 1.5px solid;
+    border-radius: 1rem;
+    margin-bottom: 1.2rem;
+    padding-left: 0.2rem;
+    border: 4px solid  #F8B042; 
+}
+#dangnhap{
+   
+  
+    padding-bottom: 5rem;
+    padding-top: 3rem;
+    
+}
+.bieumau h2{
+   text-align: center;
+   margin-top: 1rem;
+   color: #1d313f;
+   font-weight: bold;
+}
+.bieumau label{
+   font-weight: bold;
+   text-align: left;
+}
+.bieumau .input-btn{
+   margin-left: 4px;
+   margin-right: 4px;
+   margin-top: 5px;
+}
+.bieumau .btn{
+   background-color: #Ec6A52;
+   border: 1.5px solid;
+   border-radius: 1rem;
+   color: #000000;
+   font-weight: 600;
+}
+.bieumau .btn:hover{
+    background-color: #df472c;
+    border: 1.5px solid;
+    border-radius: 1rem;
+    color: #000000;
+    font-weight: 600;   
+}
+.bieumau .row a{
+   text-decoration: none;
+   color: #1d313f;
+   font-weight: bold;
+   margin-right: 0;
+}
+.bieumau .row a:hover{
+   text-decoration: underline;
+}
+
+#dangnhap .quangcao{
+    color: #000000;
+    margin-top: 1rem;
+    text-align: left;
+    margin-left: 1rem;
+    padding-left: 1rem;
+}
+#dangnhap .quangcao h1{
+    font-weight:bolder;
+    text-transform: uppercase;
+    color: black;
+}
+/* đăng ký */
+.dangky{
+    max-width: 100%;
+  
+    padding-bottom: 5rem;
+    padding-top: 3rem;
+    color: #1d313f;
+   
+}
+
+.formdangky{
+  max-width: 100%;
+  background-color: #fcf6f6;
+  border-radius: 1.5rem;
+  color: black;
+  padding: 2rem;
+  border: 1.5px solid;
+  border: 3px solid #000000;
+}
+.formdangky h2{
+    font-weight: bolder;
+    text-align: center;
+    color: #1d313f;
+    text-transform: uppercase;
+}
+.formdangky label{
+    font-weight: bold;
+}
+
+.formdangky .error-message{
+    margin-top: 2px;
+    font-weight: 300;
+    font-size: 15px;
+}
+.formdangky .btn{
+    background-color: #Ec6A52;
+    border: 1.5px solid;
+    border-radius: 1rem;
+    color: #000000;
+    font-size: 1.3rem;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+.formdangky .dangky-button{
+    
+    margin-left: 4px;
+    margin-right: 4px;
+}
+.formdangky .btn:hover{
+    background-color: #95230f;
+    border: 1.5px solid;
+    border-radius: 1rem;
+    color: #000000;
+    font-size: 1.3rem;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+.dieukhoansd a{
+    color: #9d0d1c;
+    text-decoration: none;
+}
+.dieukhoansd a:hover{
+    text-decoration: underline;
+}
+.error{
+  color: #9d0d1c;
+  font-size: 1.2rem;
+}
+
+/*banner trang chu*/
+#banner{
+    max-width: 100%;
+    margin-right: 2rem;
+    
+   }
+   #anhbanner {
+    max-width: 100%;
+    height: 22rem;
+    overflow: hidden;
+    position: relative;
+   }
+   #anhbanner img {
+     max-width: 100%;
+     height: 22rem;
+     object-fit: cover;
+     box-shadow: 0px 0px 2px 2px rgba(74, 67, 67, 0.3);
+     filter: brightness(65%);
+    }
+    .text {
+     position: absolute;
+     top: 0;
+     left: 0;
+     width: 100%;
+     height: 100%;
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+     text-align: center;
+     z-index: 1;
+     color: #fff;
+   }
+   
+   .text h2 {
+     font-size: 40px;
+     font-weight: bold;
+     margin-bottom: 10px;
+   }
+   
+   .text p {
+     font-size: 25px;
+   }
+   #danhmuc{
+    margin-top: 1.5rem;
+    padding: 0;
+    width: 15rem;
+    margin-bottom: 0;
+    margin-left: 5rem;
+  }
+  
+.main-admin{
+    margin-bottom: 20rem;
+    }
