@@ -30,7 +30,7 @@
                         @mouseenter="playVideo('video1')"
                         @mouseleave="pauseVideo('video1')"
                     >
-                        <source src="/pannellum/image/image_360/dji_fly_20250124_111836_814_1738487235762_quickshot.mp4" type="video/mp4" />
+                        <source src="https://res.cloudinary.com/dku2deoem/video/upload/v1745226414/video_ok_left_tlrbet.mp4" type="video/mp4" />
                         Trình duyệt không hỗ trợ video.
                     </video>
                 </div>
@@ -44,7 +44,7 @@
                         @mouseenter="playVideo('video2')"
                         @mouseleave="pauseVideo('video2')"
                     >
-                        <source src="/pannellum/image/image_360/dji_fly_20250124_111948_815_1738487267850_quickshot.mp4" type="video/mp4" />
+                        <source src="https://res.cloudinary.com/dku2deoem/video/upload/v1745226153/video_ok_qeenx7.mp4" type="video/mp4" />
                         Trình duyệt không hỗ trợ video.
                     </video>
                 </div>
@@ -482,7 +482,7 @@ function hotspotCustom(hotSpotDiv, args) {
         "scene1": {// san_1
             type: "equirectangular",
             //panorama:"pannellum/image/image_360/Dinh_2_4.jpg",
-            panorama: "pannellum/image/Image360_final/san_1_2.jpg",
+            panorama: "https://ibb.co/N2LJDv8n",
             hotSpots: [
                 {
                     pitch: -5.288059047660797, yaw: 4.822458376531989,
@@ -490,7 +490,7 @@ function hotspotCustom(hotSpotDiv, args) {
                     cssClass: "custom-hotspot",
                     createTooltipFunc: hotspotCustom,
                     createTooltipArgs: {
-                        imageSrc: "pannellum/image/Arrow_Top.png"
+                        imageSrc: "https://res.cloudinary.com/dku2deoem/image/upload/v1745220086/Arrow_Top_ykdke0.png"
                     },
                     clickHandlerFunc: function() {
                         viewer.loadScene("scene2");
@@ -502,7 +502,7 @@ function hotspotCustom(hotSpotDiv, args) {
                 cssClass: "custom-hotspot",
                 createTooltipFunc: hotspotCustom,
                 createTooltipArgs: {
-                    imageSrc: "pannellum/image/infor2.png",
+                    imageSrc: "https://res.cloudinary.com/dku2deoem/image/upload/v1745220189/infor2_qgmo1f.png",
                     text: "Bia khắc trước cổng",
                 },
                
@@ -513,7 +513,7 @@ function hotspotCustom(hotSpotDiv, args) {
         },
         "scene2": { //san_2
             type: "equirectangular",
-            panorama: "pannellum/image/Image360_final/san_2_3.jpg", // Fixed path
+            panorama: "https://ibb.co/5grxS7kf", // Fixed path
             hotSpots: [
             {
                 //tro ve san 1
@@ -523,7 +523,7 @@ function hotspotCustom(hotSpotDiv, args) {
                 cssClass: "custom-hotspot",
                 createTooltipFunc: hotspotCustom,
                 createTooltipArgs: {
-                    imageSrc: "pannellum/image/Arrow_Top.png" // Fixed path
+                    imageSrc: "https://res.cloudinary.com/dku2deoem/image/upload/v1745220086/Arrow_Top_ykdke0.png" // Fixed path
                 },
                 clickHandlerFunc: function() {
                     viewer.loadScene("scene1");
@@ -536,7 +536,7 @@ function hotspotCustom(hotSpotDiv, args) {
                 cssClass: "custom-hotspot",
                 createTooltipFunc: hotspotCustom,
                 createTooltipArgs: {
-                    imageSrc: "pannellum/image/Arrow_Top.png" // Fixed path
+                    imageSrc: "https://res.cloudinary.com/dku2deoem/image/upload/v1745220086/Arrow_Top_ykdke0.png" // Fixed path
                 },
                 clickHandlerFunc: function() {
                     viewer.loadScene("scene3");
@@ -550,7 +550,7 @@ function hotspotCustom(hotSpotDiv, args) {
                 cssClass: "custom-hotspot",
                 createTooltipFunc: hotspotCustom,
                 createTooltipArgs: {
-                    imageSrc: "pannellum/image/Arrow_Top.png" // Fixed path
+                    imageSrc: "https://res.cloudinary.com/dku2deoem/image/upload/v1745220086/Arrow_Top_ykdke0.png" // Fixed path
                 },
                 clickHandlerFunc: function() {
                     viewer.loadScene("scene5");
@@ -562,7 +562,7 @@ function hotspotCustom(hotSpotDiv, args) {
                 cssClass: "custom-hotspot",
                 createTooltipFunc: hotspotCustom,
                 createTooltipArgs: {
-                    imageSrc: "pannellum/image/infor2.png",
+                    imageSrc: "https://res.cloudinary.com/dku2deoem/image/upload/v1745220189/infor2_qgmo1f.png",
                     text: "Bia khắc trước cổng",
                 },
                
@@ -576,7 +576,7 @@ function hotspotCustom(hotSpotDiv, args) {
                 cssClass: "custom-hotspot",
                 createTooltipFunc: hotspotCustom,
                 createTooltipArgs: {
-                    imageSrc: "pannellum/image/Arrow_Top.png" // Fixed path
+                    imageSrc: "https://res.cloudinary.com/dku2deoem/image/upload/v1745220086/Arrow_Top_ykdke0.png" // Fixed path
                 },
                 clickHandlerFunc: function() {
                     // viewer.loadScene("scene23");
@@ -602,7 +602,7 @@ function hotspotCustom(hotSpotDiv, args) {
                 cssClass: "custom-hotspot",
                 createTooltipFunc: hotspotCustom,
                 createTooltipArgs: {
-                    imageSrc: "pannellum/image/Arrow_Top.png" // Fixed path
+                    imageSrc: "https://res.cloudinary.com/dku2deoem/image/upload/v1745220086/Arrow_Top_ykdke0.png" // Fixed path
                 },
                 clickHandlerFunc: function() {
                     viewer.loadScene("scene1");
@@ -621,7 +621,7 @@ function hotspotCustom(hotSpotDiv, args) {
                 cssClass: "custom-hotspot",
                 createTooltipFunc: hotspotCustom,
                 createTooltipArgs: {
-                    imageSrc: "pannellum/image/Arrow_Top.png" // Fixed path
+                    imageSrc: "https://res.cloudinary.com/dku2deoem/image/upload/v1745220086/Arrow_Top_ykdke0.png" // Fixed path
                 },
                 clickHandlerFunc: function() {
                     viewer.loadScene("scene2");
@@ -634,7 +634,7 @@ function hotspotCustom(hotSpotDiv, args) {
                 cssClass: "custom-hotspot",
                 createTooltipFunc: hotspotCustom,
                 createTooltipArgs: {
-                    imageSrc: "pannellum/image/Arrow_Top.png" // Fixed path
+                    imageSrc: "https://res.cloudinary.com/dku2deoem/image/upload/v1745220086/Arrow_Top_ykdke0.png" // Fixed path
                 },
                 clickHandlerFunc: function() {
                     viewer.loadScene("scene4");
@@ -647,7 +647,7 @@ function hotspotCustom(hotSpotDiv, args) {
                 cssClass: "custom-hotspot",
                 createTooltipFunc: hotspotCustom,
                 createTooltipArgs: {
-                    imageSrc: "pannellum/image/Arrow_Top.png" // Fixed path
+                    imageSrc: "https://res.cloudinary.com/dku2deoem/image/upload/v1745220086/Arrow_Top_ykdke0.png" // Fixed path
                 },
                 clickHandlerFunc: function() {
                     viewer.loadScene("scene5");
@@ -659,7 +659,7 @@ function hotspotCustom(hotSpotDiv, args) {
                     cssClass: "custom-hotspot",
                     createTooltipFunc: hotspotCustom,
                     createTooltipArgs: {
-                        imageSrc: "pannellum/image/infor2.png",
+                        imageSrc: "https://res.cloudinary.com/dku2deoem/image/upload/v1745220189/infor2_qgmo1f.png",
                         text: "Bia đá",
                     },
                     
@@ -669,7 +669,7 @@ function hotspotCustom(hotSpotDiv, args) {
         },
         "scene4": { //san_4
             type: "equirectangular",
-            panorama: "pannellum/image/Image360_final/san_4_5.jpg", // Fixed path
+            panorama: "https://ibb.co/4RTvjZz5", // Fixed path
             hotSpots: [
             {
                 // di den san 3
@@ -678,7 +678,7 @@ function hotspotCustom(hotSpotDiv, args) {
                 cssClass: "custom-hotspot",
                 createTooltipFunc: hotspotCustom,
                 createTooltipArgs: {
-                    imageSrc: "pannellum/image/Arrow_Top.png" // Fixed path
+                    imageSrc: "https://res.cloudinary.com/dku2deoem/image/upload/v1745220086/Arrow_Top_ykdke0.png" // Fixed path
                 },
                 clickHandlerFunc: function() {
                     viewer.loadScene("scene3");
@@ -688,7 +688,7 @@ function hotspotCustom(hotSpotDiv, args) {
         },
         "scene5": { //Dinh_1
             type: "equirectangular",
-            panorama: "pannellum/image/Image360_final/Dinh_1_4.jpg", // Fixed path
+            panorama: "https://ibb.co/7xkvSBy2", // Fixed path
             hotSpots: [
             //Pitch: -30.91344817148359, Yaw: 172.5966473201301
             {
@@ -698,7 +698,7 @@ function hotspotCustom(hotSpotDiv, args) {
                 cssClass: "custom-hotspot",
                 createTooltipFunc: hotspotCustom,
                 createTooltipArgs: {
-                    imageSrc: "pannellum/image/Arrow_Top.png" // Fixed path
+                    imageSrc: "https://res.cloudinary.com/dku2deoem/image/upload/v1745220086/Arrow_Top_ykdke0.png" // Fixed path
                 },
                 clickHandlerFunc: function() {
                     viewer.loadScene("scene2");
@@ -711,7 +711,7 @@ function hotspotCustom(hotSpotDiv, args) {
                 cssClass: "custom-hotspot",
                 createTooltipFunc: hotspotCustom,
                 createTooltipArgs: {
-                    imageSrc: "pannellum/image/Arrow_Top.png" // Fixed path
+                    imageSrc: "https://res.cloudinary.com/dku2deoem/image/upload/v1745220086/Arrow_Top_ykdke0.png" // Fixed path
                 },
                 clickHandlerFunc: function() {
                     viewer.loadScene("scene6");
@@ -725,7 +725,7 @@ function hotspotCustom(hotSpotDiv, args) {
                 cssClass: "custom-hotspot",
                 createTooltipFunc: hotspotCustom,
                 createTooltipArgs: {
-                    imageSrc: "pannellum/image/Arrow_Top.png" // Fixed path
+                    imageSrc: "https://res.cloudinary.com/dku2deoem/image/upload/v1745220086/Arrow_Top_ykdke0.png" // Fixed path
                 },
                 clickHandlerFunc: function() {
                     viewer.loadScene("scene8");
@@ -735,7 +735,7 @@ function hotspotCustom(hotSpotDiv, args) {
         },
         "scene6": { //Dinh_2
             type: "equirectangular",
-            panorama: "pannellum/image/Image360_final/Dinh_2_6.jpg", // Fixed path
+            panorama: "https://ibb.co/bgkQ1ZZh", // Fixed path
             // panorama: "pannellum/image/image_360/dinh2.jpg",
             hotSpots: [
             {
@@ -745,7 +745,7 @@ function hotspotCustom(hotSpotDiv, args) {
                 cssClass: "custom-hotspot",
                 createTooltipFunc: hotspotCustom,
                 createTooltipArgs: {
-                    imageSrc: "pannellum/image/Arrow_Top.png" // Fixed path
+                    imageSrc: "https://res.cloudinary.com/dku2deoem/image/upload/v1745220086/Arrow_Top_ykdke0.png" // Fixed path
                 },
                 clickHandlerFunc: function() {
                     viewer.loadScene("scene5");
@@ -758,7 +758,7 @@ function hotspotCustom(hotSpotDiv, args) {
                 cssClass: "custom-hotspot",
                 createTooltipFunc: hotspotCustom,
                 createTooltipArgs: {
-                    imageSrc: "pannellum/image/Arrow_Top.png" // Fixed path
+                    imageSrc: "https://res.cloudinary.com/dku2deoem/image/upload/v1745220086/Arrow_Top_ykdke0.png" // Fixed path
                 },
                 clickHandlerFunc: function() {
                     viewer.loadScene("scene7");
@@ -768,7 +768,7 @@ function hotspotCustom(hotSpotDiv, args) {
         },
         "scene7": { //Dinh_3
             type: "equirectangular",
-            panorama: "pannellum/image/Image360_final/Dinh_3_9.jpg", // Fixed path
+            panorama: "https://ibb.co/60CXQBxs", // Fixed path
             hotSpots: [
             {
                 // di den dinh 2
@@ -777,7 +777,7 @@ function hotspotCustom(hotSpotDiv, args) {
                 cssClass: "custom-hotspot",
                 createTooltipFunc: hotspotCustom,
                 createTooltipArgs: {
-                    imageSrc: "pannellum/image/Arrow_Top.png" // Fixed path
+                    imageSrc: "https://res.cloudinary.com/dku2deoem/image/upload/v1745220086/Arrow_Top_ykdke0.png" // Fixed path
                 },
                 clickHandlerFunc: function() {
                     viewer.loadScene("scene6");
@@ -790,7 +790,7 @@ function hotspotCustom(hotSpotDiv, args) {
                 cssClass: "custom-hotspot",
                 createTooltipFunc: hotspotCustom,
                 createTooltipArgs: {
-                    imageSrc: "pannellum/image/Arrow_Top.png" // Fixed path
+                    imageSrc: "https://res.cloudinary.com/dku2deoem/image/upload/v1745220086/Arrow_Top_ykdke0.png" // Fixed path
                 },
                 clickHandlerFunc: function() {
                     viewer.loadScene("scene10");
@@ -802,7 +802,7 @@ function hotspotCustom(hotSpotDiv, args) {
                 cssClass: "custom-hotspot",
                 createTooltipFunc: hotspotCustom,
                 createTooltipArgs: {
-                    imageSrc: "pannellum/image/infor2.png",
+                    imageSrc: "https://res.cloudinary.com/dku2deoem/image/upload/v1745220189/infor2_qgmo1f.png",
                     text: "Gỗ bông sen",
                 },
              
@@ -814,7 +814,7 @@ function hotspotCustom(hotSpotDiv, args) {
         },
         "scene8": { //Dinh_4
             type: "equirectangular",
-            panorama: "pannellum/image/Image360_final/Dinh_4_3.jpg", // Fixed path
+            panorama: "https://ibb.co/bRKCBMR5", // Fixed path
             hotSpots: [
             {
                 // di den dinh 1
@@ -823,7 +823,7 @@ function hotspotCustom(hotSpotDiv, args) {
                 cssClass: "custom-hotspot",
                 createTooltipFunc: hotspotCustom,
                 createTooltipArgs: {
-                    imageSrc: "pannellum/image/Arrow_Top.png" // Fixed path
+                    imageSrc: "https://res.cloudinary.com/dku2deoem/image/upload/v1745220086/Arrow_Top_ykdke0.png" // Fixed path
                 },
                 clickHandlerFunc: function() {
                     viewer.loadScene("scene5");
@@ -836,7 +836,7 @@ function hotspotCustom(hotSpotDiv, args) {
                 cssClass: "custom-hotspot",
                 createTooltipFunc: hotspotCustom,
                 createTooltipArgs: {
-                    imageSrc: "pannellum/image/Arrow_Top.png" // Fixed path
+                    imageSrc: "https://res.cloudinary.com/dku2deoem/image/upload/v1745220086/Arrow_Top_ykdke0.png" // Fixed path
                 },
                 clickHandlerFunc: function() {
                     viewer.loadScene("scene9");
@@ -849,7 +849,7 @@ function hotspotCustom(hotSpotDiv, args) {
                 cssClass: "custom-hotspot",
                 createTooltipFunc: hotspotCustom,
                 createTooltipArgs: {
-                    imageSrc: "pannellum/image/Arrow_Top.png" // Fixed path
+                    imageSrc: "https://res.cloudinary.com/dku2deoem/image/upload/v1745220086/Arrow_Top_ykdke0.png" // Fixed path
                 },
                 clickHandlerFunc: function() {
                     viewer.loadScene("scene11");
@@ -861,7 +861,7 @@ function hotspotCustom(hotSpotDiv, args) {
                 cssClass: "custom-hotspot",
                 createTooltipFunc: hotspotCustom,
                 createTooltipArgs: {
-                    imageSrc: "pannellum/image/infor2.png",
+                    imageSrc: "https://res.cloudinary.com/dku2deoem/image/upload/v1745220189/infor2_qgmo1f.png",
                     text: "Lưu hương và khối gỗ",
                 },
                 
@@ -873,7 +873,7 @@ function hotspotCustom(hotSpotDiv, args) {
         },
         "scene9": { //Dinh_5
             type: "equirectangular",
-            panorama: "pannellum/image/Image360_final/Dinh_5_7.jpg", // Fixed path
+            panorama: "https://ibb.co/nM6x95vV", // Fixed path
             hotSpots: [
             {
                 // di den dinh 4
@@ -882,7 +882,7 @@ function hotspotCustom(hotSpotDiv, args) {
                 cssClass: "custom-hotspot",
                 createTooltipFunc: hotspotCustom,
                 createTooltipArgs: {
-                    imageSrc: "pannellum/image/Arrow_Top.png" // Fixed path
+                    imageSrc: "https://res.cloudinary.com/dku2deoem/image/upload/v1745220086/Arrow_Top_ykdke0.png" // Fixed path
                 },
                 clickHandlerFunc: function() {
                     viewer.loadScene("scene8");
@@ -895,7 +895,7 @@ function hotspotCustom(hotSpotDiv, args) {
                 cssClass: "custom-hotspot",
                 createTooltipFunc: hotspotCustom,
                 createTooltipArgs: {
-                    imageSrc: "pannellum/image/Arrow_Top.png" // Fixed path
+                    imageSrc: "https://res.cloudinary.com/dku2deoem/image/upload/v1745220086/Arrow_Top_ykdke0.png" // Fixed path
                 },
                 clickHandlerFunc: function() {
                     viewer.loadScene("scene10");
@@ -905,7 +905,7 @@ function hotspotCustom(hotSpotDiv, args) {
         },
         "scene10": { //Dinh_6
             type: "equirectangular",
-            panorama: "pannellum/image/Image360_final/Dinh_6_4.jpg", // Fixed path
+            panorama: "https://ibb.co/Txzn0cY5", // Fixed path
             hotSpots: [
             
             {
@@ -915,7 +915,7 @@ function hotspotCustom(hotSpotDiv, args) {
                 cssClass: "custom-hotspot",
                 createTooltipFunc: hotspotCustom,
                 createTooltipArgs: {
-                    imageSrc: "pannellum/image/Arrow_Top.png" // Fixed path
+                    imageSrc: "https://res.cloudinary.com/dku2deoem/image/upload/v1745220086/Arrow_Top_ykdke0.png" // Fixed path
                 },
                 clickHandlerFunc: function() {
                     viewer.loadScene("scene7");
@@ -928,7 +928,7 @@ function hotspotCustom(hotSpotDiv, args) {
                 cssClass: "custom-hotspot",
                 createTooltipFunc: hotspotCustom,
                 createTooltipArgs: {
-                    imageSrc: "pannellum/image/Arrow_Top.png" // Fixed path
+                    imageSrc: "https://res.cloudinary.com/dku2deoem/image/upload/v1745220086/Arrow_Top_ykdke0.png" // Fixed path
                 },
                 clickHandlerFunc: function() {
                     viewer.loadScene("scene9");
@@ -941,7 +941,7 @@ function hotspotCustom(hotSpotDiv, args) {
                 cssClass: "custom-hotspot",
                 createTooltipFunc: hotspotCustom,
                 createTooltipArgs: {
-                    imageSrc: "pannellum/image/Arrow_Top.png" // Fixed path
+                    imageSrc: "https://res.cloudinary.com/dku2deoem/image/upload/v1745220086/Arrow_Top_ykdke0.png" // Fixed path
                 },
                 clickHandlerFunc: function() {
                     viewer.loadScene("scene13");
@@ -953,7 +953,7 @@ function hotspotCustom(hotSpotDiv, args) {
                 cssClass: "custom-hotspot",
                 createTooltipFunc: hotspotCustom,
                 createTooltipArgs: {
-                    imageSrc: "pannellum/image/infor2.png",
+                    imageSrc: "https://res.cloudinary.com/dku2deoem/image/upload/v1745220189/infor2_qgmo1f.png",
                     text: "Gỗ bông sen",
                 },
                 
@@ -965,7 +965,7 @@ function hotspotCustom(hotSpotDiv, args) {
         },
         "scene11": { //Dinh_7
             type: "equirectangular",
-            panorama: "pannellum/image/Image360_final/Dinh_7_4.jpg", // Fixed path
+            panorama: "https://ibb.co/3yk4Yzyb", // Fixed path
             hotSpots: [
             {
                 // di den dinh 4
@@ -974,7 +974,7 @@ function hotspotCustom(hotSpotDiv, args) {
                 cssClass: "custom-hotspot",
                 createTooltipFunc: hotspotCustom,
                 createTooltipArgs: {
-                    imageSrc: "pannellum/image/Arrow_Top.png" // Fixed path
+                    imageSrc: "https://res.cloudinary.com/dku2deoem/image/upload/v1745220086/Arrow_Top_ykdke0.png" // Fixed path
                 },
                 clickHandlerFunc: function() {
                     viewer.loadScene("scene14");
@@ -987,7 +987,7 @@ function hotspotCustom(hotSpotDiv, args) {
                 cssClass: "custom-hotspot",
                 createTooltipFunc: hotspotCustom,
                 createTooltipArgs: {
-                    imageSrc: "pannellum/image/Arrow_Top.png" // Fixed path
+                    imageSrc: "https://res.cloudinary.com/dku2deoem/image/upload/v1745220086/Arrow_Top_ykdke0.png" // Fixed path
                 },
                 clickHandlerFunc: function() {
                     viewer.loadScene("scene12");
@@ -1000,7 +1000,7 @@ function hotspotCustom(hotSpotDiv, args) {
                 cssClass: "custom-hotspot",
                 createTooltipFunc: hotspotCustom,
                 createTooltipArgs: {
-                    imageSrc: "pannellum/image/Arrow_Top.png" // Fixed path
+                    imageSrc: "https://res.cloudinary.com/dku2deoem/image/upload/v1745220086/Arrow_Top_ykdke0.png" // Fixed path
                 },
                 clickHandlerFunc: function() {
                     viewer.loadScene("scene8");
@@ -1012,7 +1012,7 @@ function hotspotCustom(hotSpotDiv, args) {
                 cssClass: "custom-hotspot",
                 createTooltipFunc: hotspotCustom,
                 createTooltipArgs: {
-                    imageSrc: "pannellum/image/infor2.png",
+                    imageSrc: "https://res.cloudinary.com/dku2deoem/image/upload/v1745220189/infor2_qgmo1f.png",
                     text: "Lưu hương và khối gỗ",
                 },
                 
@@ -1024,7 +1024,7 @@ function hotspotCustom(hotSpotDiv, args) {
                 cssClass: "custom-hotspot",
                 createTooltipFunc: hotspotCustom,
                 createTooltipArgs: {
-                    imageSrc: "pannellum/image/infor2.png",
+                    imageSrc: "https://res.cloudinary.com/dku2deoem/image/upload/v1745220189/infor2_qgmo1f.png",
                     text: "Tượng chim đại bàng gỗ",
                 },
                 
@@ -1036,7 +1036,7 @@ function hotspotCustom(hotSpotDiv, args) {
                 cssClass: "custom-hotspot",
                 createTooltipFunc: hotspotCustom,
                 createTooltipArgs: {
-                    imageSrc: "pannellum/image/infor2.png",
+                    imageSrc: "https://res.cloudinary.com/dku2deoem/image/upload/v1745220189/infor2_qgmo1f.png",
                     text: "Tượng con cá gỗ",
                 },
                 clickHandlerFunc: () => openmodel('model11')     
@@ -1047,7 +1047,7 @@ function hotspotCustom(hotSpotDiv, args) {
                 cssClass: "custom-hotspot",
                 createTooltipFunc: hotspotCustom,
                 createTooltipArgs: {
-                    imageSrc: "pannellum/image/infor2.png",
+                    imageSrc: "https://res.cloudinary.com/dku2deoem/image/upload/v1745220189/infor2_qgmo1f.png",
                     text: "Tượng hình voi",
                 },
                 
@@ -1060,7 +1060,7 @@ function hotspotCustom(hotSpotDiv, args) {
         "scene12": { //Dinh_8
             type: "equirectangular",
             // panorama: "pannellum/image/image_360/Dinh_8.jpg", // Fixed path
-            panorama: "pannellum/image/Image360_final/Dinh_8_6.jpg",
+            panorama: "https://ibb.co/4gJZfVgr",
             hotSpots: [
             {
                 // di den dinh 7
@@ -1069,7 +1069,7 @@ function hotspotCustom(hotSpotDiv, args) {
                 cssClass: "custom-hotspot",
                 createTooltipFunc: hotspotCustom,
                 createTooltipArgs: {
-                    imageSrc: "pannellum/image/Arrow_Top.png" // Fixed path
+                    imageSrc: "https://res.cloudinary.com/dku2deoem/image/upload/v1745220086/Arrow_Top_ykdke0.png" // Fixed path
                 },
                 clickHandlerFunc: function() {
                     viewer.loadScene("scene11");
@@ -1082,7 +1082,7 @@ function hotspotCustom(hotSpotDiv, args) {
                 cssClass: "custom-hotspot",
                 createTooltipFunc: hotspotCustom,
                 createTooltipArgs: {
-                    imageSrc: "pannellum/image/Arrow_Top.png" // Fixed path
+                    imageSrc: "https://res.cloudinary.com/dku2deoem/image/upload/v1745220086/Arrow_Top_ykdke0.png" // Fixed path
                 },
                 clickHandlerFunc: function() {
                     viewer.loadScene("scene13");
@@ -1094,7 +1094,7 @@ function hotspotCustom(hotSpotDiv, args) {
                 cssClass: "custom-hotspot",
                 createTooltipFunc: hotspotCustom,
                 createTooltipArgs: {
-                    imageSrc: "pannellum/image/infor2.png"
+                    imageSrc: "https://res.cloudinary.com/dku2deoem/image/upload/v1745220189/infor2_qgmo1f.png"
                 },
                 text: "Xem mô hình 3D",
                 clickHandlerFunc: () => openmodel('model3')     
@@ -1105,7 +1105,7 @@ function hotspotCustom(hotSpotDiv, args) {
                 cssClass: "custom-hotspot",
                 createTooltipFunc: hotspotCustom,
                 createTooltipArgs: {
-                    imageSrc: "pannellum/image/infor2.png"
+                    imageSrc: "https://res.cloudinary.com/dku2deoem/image/upload/v1745220189/infor2_qgmo1f.png"
                 },
                 text: "Xem mô hình 3D",
                 clickHandlerFunc: () => openmodel('model3')     
@@ -1119,7 +1119,7 @@ function hotspotCustom(hotSpotDiv, args) {
                 createTooltipFunc: hotspotCustom,
                 createTooltipArgs: {
                     text: "Bình màu xanh",
-                    imageSrc: "pannellum/image/infor2.png"
+                    imageSrc: "https://res.cloudinary.com/dku2deoem/image/upload/v1745220189/infor2_qgmo1f.png"
                 },
                 
                 clickHandlerFunc: () => openmodel('model9')     
@@ -1132,7 +1132,7 @@ function hotspotCustom(hotSpotDiv, args) {
         "scene13": { //Dinh_9
             type: "equirectangular",
             // panorama: "pannellum/image/image_360/Dinh_9.jpg", // Fixed path
-            panorama: "pannellum/image/Image360_final/Dinh_9_4.jpg", 
+            panorama: "https://ibb.co/Q7DFDHLd", 
             hotSpots: [
             {
                 // di den dinh 6
@@ -1141,7 +1141,7 @@ function hotspotCustom(hotSpotDiv, args) {
                 cssClass: "custom-hotspot",
                 createTooltipFunc: hotspotCustom,
                 createTooltipArgs: {
-                    imageSrc: "pannellum/image/Arrow_Top.png" // Fixed path
+                    imageSrc: "https://res.cloudinary.com/dku2deoem/image/upload/v1745220086/Arrow_Top_ykdke0.png" // Fixed path
                 },
                 clickHandlerFunc: function() {
                     viewer.loadScene("scene10");
@@ -1154,7 +1154,7 @@ function hotspotCustom(hotSpotDiv, args) {
                 cssClass: "custom-hotspot",
                 createTooltipFunc: hotspotCustom,
                 createTooltipArgs: {
-                    imageSrc: "pannellum/image/Arrow_Top.png" // Fixed path
+                    imageSrc: "https://res.cloudinary.com/dku2deoem/image/upload/v1745220086/Arrow_Top_ykdke0.png" // Fixed path
                 },
                 clickHandlerFunc: function() {
                     viewer.loadScene("scene12");
@@ -1167,7 +1167,7 @@ function hotspotCustom(hotSpotDiv, args) {
                 cssClass: "custom-hotspot",
                 createTooltipFunc: hotspotCustom,
                 createTooltipArgs: {
-                    imageSrc: "pannellum/image/Arrow_Top.png" // Fixed path
+                    imageSrc: "https://res.cloudinary.com/dku2deoem/image/upload/v1745220086/Arrow_Top_ykdke0.png" // Fixed path
                 },
                 clickHandlerFunc: function() {
                     viewer.loadScene("scene16");
@@ -1180,7 +1180,7 @@ function hotspotCustom(hotSpotDiv, args) {
                 createTooltipFunc: hotspotCustom,
                 createTooltipArgs: {
                     text: "Tượng gỗ",
-                    imageSrc: "pannellum/image/infor2.png"
+                    imageSrc: "https://res.cloudinary.com/dku2deoem/image/upload/v1745220189/infor2_qgmo1f.png"
                 },
                 
                 clickHandlerFunc: () => openmodel('model17')     
@@ -1191,7 +1191,7 @@ function hotspotCustom(hotSpotDiv, args) {
                 cssClass: "custom-hotspot",
                 createTooltipFunc: hotspotCustom,
                 createTooltipArgs: {
-                    imageSrc: "pannellum/image/infor2.png"
+                    imageSrc: "https://res.cloudinary.com/dku2deoem/image/upload/v1745220189/infor2_qgmo1f.png"
                 },
                 text: "Xem mô hình 3D",
                 clickHandlerFunc: () => openmodel('model3')     
@@ -1202,7 +1202,7 @@ function hotspotCustom(hotSpotDiv, args) {
         },
         "scene14": { //Dinh_10
             type: "equirectangular",
-            panorama: "pannellum/image/Image360_final/Dinh_10_2.jpg", // Fixed path
+            panorama: "https://ibb.co/bRbhYQ6r", // Fixed path
             hotSpots: [
             {
                 // di den dinh 7
@@ -1211,7 +1211,7 @@ function hotspotCustom(hotSpotDiv, args) {
                 cssClass: "custom-hotspot",
                 createTooltipFunc: hotspotCustom,
                 createTooltipArgs: {
-                    imageSrc: "pannellum/image/Arrow_Top.png" // Fixed path
+                    imageSrc: "https://res.cloudinary.com/dku2deoem/image/upload/v1745220086/Arrow_Top_ykdke0.png" // Fixed path
                 },
                 clickHandlerFunc: function() {
                     viewer.loadScene("scene11");
@@ -1224,7 +1224,7 @@ function hotspotCustom(hotSpotDiv, args) {
                 cssClass: "custom-hotspot",
                 createTooltipFunc: hotspotCustom,
                 createTooltipArgs: {
-                    imageSrc: "pannellum/image/Arrow_Top.png" // Fixed path
+                    imageSrc: "https://res.cloudinary.com/dku2deoem/image/upload/v1745220086/Arrow_Top_ykdke0.png" // Fixed path
                 },
                 clickHandlerFunc: function() {
                     viewer.loadScene("scene15");
@@ -1237,7 +1237,7 @@ function hotspotCustom(hotSpotDiv, args) {
                 cssClass: "custom-hotspot",
                 createTooltipFunc: hotspotCustom,
                 createTooltipArgs: {
-                    imageSrc: "pannellum/image/Arrow_Top.png" // Fixed path
+                    imageSrc: "https://res.cloudinary.com/dku2deoem/image/upload/v1745220086/Arrow_Top_ykdke0.png" // Fixed path
                 },
                 clickHandlerFunc: function() {
                     viewer.loadScene("scene17");
@@ -1250,7 +1250,7 @@ function hotspotCustom(hotSpotDiv, args) {
                 createTooltipFunc: hotspotCustom,
                 createTooltipArgs: {
                     text: "khối gỗ",
-                    imageSrc: "pannellum/image/infor2.png"
+                    imageSrc: "https://res.cloudinary.com/dku2deoem/image/upload/v1745220189/infor2_qgmo1f.png"
                 },
                 
                 clickHandlerFunc: () => openmodel('model18')     
@@ -1261,7 +1261,7 @@ function hotspotCustom(hotSpotDiv, args) {
         "scene15": { //Dinh_11
             type: "equirectangular",
             // panorama: "pannellum/image/image_360/Dinh_11.jpg", // Fixed path
-            panorama: "pannellum/image/Image360_final/Dinh_11_4.jpg",
+            panorama: "https://ibb.co/ZpPD8zsn",
             hotSpots: [
             {
                 // di den dinh 10
@@ -1271,7 +1271,7 @@ function hotspotCustom(hotSpotDiv, args) {
                 cssClass: "custom-hotspot",
                 createTooltipFunc: hotspotCustom,
                 createTooltipArgs: {
-                    imageSrc: "pannellum/image/Arrow_Top.png" // Fixed path
+                    imageSrc: "https://res.cloudinary.com/dku2deoem/image/upload/v1745220086/Arrow_Top_ykdke0.png" // Fixed path
                 },
                 clickHandlerFunc: function() {
                     viewer.loadScene("scene14");
@@ -1284,7 +1284,7 @@ function hotspotCustom(hotSpotDiv, args) {
                 cssClass: "custom-hotspot",
                 createTooltipFunc: hotspotCustom,
                 createTooltipArgs: {
-                    imageSrc: "pannellum/image/Arrow_Top.png" // Fixed path
+                    imageSrc: "https://res.cloudinary.com/dku2deoem/image/upload/v1745220086/Arrow_Top_ykdke0.png" // Fixed path
                 },
                 clickHandlerFunc: function() {
                     viewer.loadScene("scene16");
@@ -1297,7 +1297,7 @@ function hotspotCustom(hotSpotDiv, args) {
                 createTooltipFunc: hotspotCustom,
                 createTooltipArgs: {
                     text: "Lưu hương lộc",
-                    imageSrc: "pannellum/image/infor2.png"
+                    imageSrc: "https://res.cloudinary.com/dku2deoem/image/upload/v1745220189/infor2_qgmo1f.png"
                 },
                
                 clickHandlerFunc: () => openmodel('model16')     
@@ -1306,7 +1306,7 @@ function hotspotCustom(hotSpotDiv, args) {
         },
         "scene16": { //Dinh_12
             type: "equirectangular",
-            panorama: "pannellum/image/Image360_final/Dinh_12_5.jpg", // Fixed path
+            panorama: "https://ibb.co/jkMrkf3g", // Fixed path
             hotSpots: [
             {
                 // di den dinh 9
@@ -1315,7 +1315,7 @@ function hotspotCustom(hotSpotDiv, args) {
                 cssClass: "custom-hotspot",
                 createTooltipFunc: hotspotCustom,
                 createTooltipArgs: {
-                    imageSrc: "pannellum/image/Arrow_Top.png" // Fixed path
+                    imageSrc: "https://res.cloudinary.com/dku2deoem/image/upload/v1745220086/Arrow_Top_ykdke0.png" // Fixed path
                 },
                 clickHandlerFunc: function() {
                     viewer.loadScene("scene19");
@@ -1328,7 +1328,7 @@ function hotspotCustom(hotSpotDiv, args) {
                 cssClass: "custom-hotspot",
                 createTooltipFunc: hotspotCustom,
                 createTooltipArgs: {
-                    imageSrc: "pannellum/image/Arrow_Top.png" // Fixed path
+                    imageSrc: "https://res.cloudinary.com/dku2deoem/image/upload/v1745220086/Arrow_Top_ykdke0.png" // Fixed path
                 },
                 clickHandlerFunc: function() {
                     viewer.loadScene("scene15");
@@ -1341,7 +1341,7 @@ function hotspotCustom(hotSpotDiv, args) {
                 cssClass: "custom-hotspot",
                 createTooltipFunc: hotspotCustom,
                 createTooltipArgs: {
-                    imageSrc: "pannellum/image/Arrow_Top.png" // Fixed path
+                    imageSrc: "https://res.cloudinary.com/dku2deoem/image/upload/v1745220086/Arrow_Top_ykdke0.png" // Fixed path
                 },
                 clickHandlerFunc: function() {
                     viewer.loadScene("scene13");
@@ -1351,7 +1351,7 @@ function hotspotCustom(hotSpotDiv, args) {
         },
         "scene17": { //Dinh_13
             type: "equirectangular",
-            panorama: "pannellum/image/Image360_final/Dinh_13_3.jpg",  // Fixed path
+            panorama: "https://ibb.co/yFsmV57n",  // Fixed path
             hotSpots: [
             {
                 // di den dinh 10
@@ -1360,7 +1360,7 @@ function hotspotCustom(hotSpotDiv, args) {
                 cssClass: "custom-hotspot",
                 createTooltipFunc: hotspotCustom,
                 createTooltipArgs: {
-                    imageSrc: "pannellum/image/Arrow_Top.png" // Fixed path
+                    imageSrc: "https://res.cloudinary.com/dku2deoem/image/upload/v1745220086/Arrow_Top_ykdke0.png" // Fixed path
                 },
                 clickHandlerFunc: function() {
                     viewer.loadScene("scene14");
@@ -1373,7 +1373,7 @@ function hotspotCustom(hotSpotDiv, args) {
                 cssClass: "custom-hotspot",
                 createTooltipFunc: hotspotCustom,
                 createTooltipArgs: {
-                    imageSrc: "pannellum/image/Arrow_Top.png" // Fixed path
+                    imageSrc: "https://res.cloudinary.com/dku2deoem/image/upload/v1745220086/Arrow_Top_ykdke0.png" // Fixed path
                 },
                 clickHandlerFunc: function() {
                     viewer.loadScene("scene18");
@@ -1386,7 +1386,7 @@ function hotspotCustom(hotSpotDiv, args) {
                 cssClass: "custom-hotspot",
                 createTooltipFunc: hotspotCustom,
                 createTooltipArgs: {
-                    imageSrc: "pannellum/image/Arrow_Top.png" // Fixed path
+                    imageSrc: "https://res.cloudinary.com/dku2deoem/image/upload/v1745220086/Arrow_Top_ykdke0.png" // Fixed path
                 },
                 clickHandlerFunc: function() {
                     viewer.loadScene("scene20");
@@ -1398,7 +1398,7 @@ function hotspotCustom(hotSpotDiv, args) {
                 cssClass: "custom-hotspot",
                 createTooltipFunc: hotspotCustom,
                 createTooltipArgs: {
-                    imageSrc: "pannellum/image/infor2.png",
+                    imageSrc: "https://res.cloudinary.com/dku2deoem/image/upload/v1745220189/infor2_qgmo1f.png",
                     text: "Tượng thần tài",
                 },
                 
@@ -1409,7 +1409,7 @@ function hotspotCustom(hotSpotDiv, args) {
         },
         "scene18": { //Dinh_14
             type: "equirectangular",
-            panorama: "pannellum/image/Image360_final/Dinh_14_4.jpg", // Fixed path
+            panorama: "https://ibb.co/qYWy1s1v", // Fixed path
             hotSpots: [
             {
                 // di den dinh 13
@@ -1418,7 +1418,7 @@ function hotspotCustom(hotSpotDiv, args) {
                 cssClass: "custom-hotspot",
                 createTooltipFunc: hotspotCustom,
                 createTooltipArgs: {
-                    imageSrc: "pannellum/image/Arrow_Top.png" // Fixed path
+                    imageSrc: "https://res.cloudinary.com/dku2deoem/image/upload/v1745220086/Arrow_Top_ykdke0.png" // Fixed path
                 },
                 clickHandlerFunc: function() {
                     viewer.loadScene("scene17");
@@ -1431,7 +1431,7 @@ function hotspotCustom(hotSpotDiv, args) {
                 cssClass: "custom-hotspot",
                 createTooltipFunc: hotspotCustom,
                 createTooltipArgs: {
-                    imageSrc: "pannellum/image/Arrow_Top.png" // Fixed path
+                    imageSrc: "https://res.cloudinary.com/dku2deoem/image/upload/v1745220086/Arrow_Top_ykdke0.png" // Fixed path
                 },
                 clickHandlerFunc: function() {
                     viewer.loadScene("scene19");
@@ -1443,7 +1443,7 @@ function hotspotCustom(hotSpotDiv, args) {
                 cssClass: "custom-hotspot",
                 createTooltipFunc: hotspotCustom,
                 createTooltipArgs: {
-                    imageSrc: "pannellum/image/infor2.png",
+                    imageSrc: "https://res.cloudinary.com/dku2deoem/image/upload/v1745220189/infor2_qgmo1f.png",
                     text: "Lưu hương lớn",
                 },
                 
@@ -1454,7 +1454,7 @@ function hotspotCustom(hotSpotDiv, args) {
         },
         "scene19": { //Dinh_15
             type: "equirectangular",
-            panorama: "pannellum/image/Image360_final/Dinh_15_3.jpg", // Fixed path
+            panorama: "https://ibb.co/Rp08tXvr", // Fixed path
             hotSpots: [
             {
                 // di den dinh 12
@@ -1463,7 +1463,7 @@ function hotspotCustom(hotSpotDiv, args) {
                 cssClass: "custom-hotspot",
                 createTooltipFunc: hotspotCustom,
                 createTooltipArgs: {
-                    imageSrc: "pannellum/image/Arrow_Top.png" // Fixed path
+                    imageSrc: "https://res.cloudinary.com/dku2deoem/image/upload/v1745220086/Arrow_Top_ykdke0.png" // Fixed path
                 },
                 clickHandlerFunc: function() {
                     viewer.loadScene("scene16");
@@ -1476,7 +1476,7 @@ function hotspotCustom(hotSpotDiv, args) {
                 cssClass: "custom-hotspot",
                 createTooltipFunc: hotspotCustom,
                 createTooltipArgs: {
-                    imageSrc: "pannellum/image/Arrow_Top.png" // Fixed path
+                    imageSrc: "https://res.cloudinary.com/dku2deoem/image/upload/v1745220086/Arrow_Top_ykdke0.png" // Fixed path
                 },
                 clickHandlerFunc: function() {
                     viewer.loadScene("scene18");
@@ -1489,7 +1489,7 @@ function hotspotCustom(hotSpotDiv, args) {
                 cssClass: "custom-hotspot",
                 createTooltipFunc: hotspotCustom,
                 createTooltipArgs: {
-                    imageSrc: "pannellum/image/Arrow_Top.png" // Fixed path
+                    imageSrc: "https://res.cloudinary.com/dku2deoem/image/upload/v1745220086/Arrow_Top_ykdke0.png" // Fixed path
                 },
                 clickHandlerFunc: function() {
                     viewer.loadScene("scene22");
@@ -1501,7 +1501,7 @@ function hotspotCustom(hotSpotDiv, args) {
                 cssClass: "custom-hotspot",
                 createTooltipFunc: hotspotCustom,
                 createTooltipArgs: {
-                    imageSrc: "pannellum/image/infor2.png",
+                    imageSrc: "https://res.cloudinary.com/dku2deoem/image/upload/v1745220189/infor2_qgmo1f.png",
                     text: "Tượng thần canh gác đình",
                 },
                 
@@ -1512,7 +1512,7 @@ function hotspotCustom(hotSpotDiv, args) {
         },
         "scene20": { //Dinh_16
             type: "equirectangular",
-            panorama: "pannellum/image/Image360_final/Dinh_16_6.jpg", // Fixed path
+            panorama: "https://ibb.co/SXNV1DYM", // Fixed path
             hotSpots: [
             {
                 // di den dinh 13
@@ -1521,7 +1521,7 @@ function hotspotCustom(hotSpotDiv, args) {
                 cssClass: "custom-hotspot",
                 createTooltipFunc: hotspotCustom,
                 createTooltipArgs: {
-                    imageSrc: "pannellum/image/Arrow_Top.png" // Fixed path
+                    imageSrc: "https://res.cloudinary.com/dku2deoem/image/upload/v1745220086/Arrow_Top_ykdke0.png" // Fixed path
                 },
                 clickHandlerFunc: function() {
                     viewer.loadScene("scene17");
@@ -1534,7 +1534,7 @@ function hotspotCustom(hotSpotDiv, args) {
                 cssClass: "custom-hotspot",
                 createTooltipFunc: hotspotCustom,
                 createTooltipArgs: {
-                    imageSrc: "pannellum/image/Arrow_Top.png" // Fixed path
+                    imageSrc: "https://res.cloudinary.com/dku2deoem/image/upload/v1745220086/Arrow_Top_ykdke0.png" // Fixed path
                 },
                 clickHandlerFunc: function() {
                     viewer.loadScene("scene21");
@@ -1544,7 +1544,7 @@ function hotspotCustom(hotSpotDiv, args) {
         },
         "scene21": { //Dinh_17
             type: "equirectangular",
-            panorama: "pannellum/image/Image360_final/Dinh_17_3.jpg", // Fixed path
+            panorama: "https://ibb.co/cz4PdB4", // Fixed path
             hotSpots: [
             {
                 // di den dinh 16
@@ -1553,7 +1553,7 @@ function hotspotCustom(hotSpotDiv, args) {
                 cssClass: "custom-hotspot",
                 createTooltipFunc: hotspotCustom,
                 createTooltipArgs: {
-                    imageSrc: "pannellum/image/Arrow_Top.png" // Fixed path
+                    imageSrc: "https://res.cloudinary.com/dku2deoem/image/upload/v1745220086/Arrow_Top_ykdke0.png" // Fixed path
                 },
                 clickHandlerFunc: function() {
                     viewer.loadScene("scene20");
@@ -1566,7 +1566,7 @@ function hotspotCustom(hotSpotDiv, args) {
                 cssClass: "custom-hotspot",
                 createTooltipFunc: hotspotCustom,
                 createTooltipArgs: {
-                    imageSrc: "pannellum/image/Arrow_Top.png" // Fixed path
+                    imageSrc: "https://res.cloudinary.com/dku2deoem/image/upload/v1745220086/Arrow_Top_ykdke0.png" // Fixed path
                 },
                 clickHandlerFunc: function() {
                     viewer.loadScene("scene22");
@@ -1577,7 +1577,7 @@ function hotspotCustom(hotSpotDiv, args) {
         "scene22": { //Dinh_18
             type: "equirectangular",
             // panorama: "pannellum/image/image_360/Dinh_18.jpg", // Fixed path
-            panorama: "pannellum/image/Image360_final/Dinh_18_5.jpg", 
+            panorama: "https://ibb.co/v4mqmwTx", 
             hotSpots: [
             {
                 // di den dinh 15
@@ -1586,7 +1586,7 @@ function hotspotCustom(hotSpotDiv, args) {
                 cssClass: "custom-hotspot",
                 createTooltipFunc: hotspotCustom,
                 createTooltipArgs: {
-                    imageSrc: "pannellum/image/Arrow_Top.png" // Fixed path
+                    imageSrc: "https://res.cloudinary.com/dku2deoem/image/upload/v1745220086/Arrow_Top_ykdke0.png" // Fixed path
                 },
                 clickHandlerFunc: function() {
                     viewer.loadScene("scene19");
@@ -1599,7 +1599,7 @@ function hotspotCustom(hotSpotDiv, args) {
                 cssClass: "custom-hotspot",
                 createTooltipFunc: hotspotCustom,
                 createTooltipArgs: {
-                    imageSrc: "pannellum/image/Arrow_Top.png" // Fixed path
+                    imageSrc: "https://res.cloudinary.com/dku2deoem/image/upload/v1745220086/Arrow_Top_ykdke0.png" // Fixed path
                 },
                 clickHandlerFunc: function() {
                     viewer.loadScene("scene21");
