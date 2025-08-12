@@ -1,6 +1,6 @@
 <template>
   <div class="mt-4">
-    <img src="@/assets/banner3.jpg" alt="banner">
+    <img src="https://res.cloudinary.com/dku2deoem/image/upload/v1745221289/banner3_h8hvno.jpg" alt="banner">
     
     <div class=" mb-4">
         <Videoskyflycam />
