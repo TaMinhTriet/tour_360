@@ -482,7 +482,7 @@ function hotspotCustom(hotSpotDiv, args) {
         "scene1": {// san_1
             type: "equirectangular",
             //panorama:"pannellum/image/image_360/Dinh_2_4.jpg",
-            panorama: "https://i.ibb.co/b5rCw0SR/san-1-2.jpg",
+            panorama: "https://loc1506.sirv.com/Image360_final/san_1_2.jpg",
             hotSpots: [
                 {
                     pitch: -5.288059047660797, yaw: 4.822458376531989,
@@ -513,7 +513,7 @@ function hotspotCustom(hotSpotDiv, args) {
         },
         "scene2": { //san_2
             type: "equirectangular",
-            panorama: "https://i.ibb.co/DH9gvqYS/san-2-3.jpg", // Fixed path
+            panorama: "https://loc1506.sirv.com/Image360_final/san_2_3.jpg", // Fixed path
             hotSpots: [
             {
                 //tro ve san 1
@@ -612,7 +612,7 @@ function hotspotCustom(hotSpotDiv, args) {
         },
         "scene3": { //san_3
             type: "equirectangular",
-            panorama: "https://i.ibb.co/0jQCnsBb/san3-2.jpg", // Fixed path
+            panorama: "https://loc1506.sirv.com/Image360_final/san3_2.jpg", // Fixed path
             hotSpots: [
             {
                 // di den san 2
@@ -669,7 +669,7 @@ function hotspotCustom(hotSpotDiv, args) {
         },
         "scene4": { //san_4
             type: "equirectangular",
-            panorama: "https://i.ibb.co/9HTKq96C/san-4-5.jpg", // Fixed path
+            panorama: "https://loc1506.sirv.com/Image360_final/san_4_5.jpg", // Fixed path
             hotSpots: [
             {
                 // di den san 3
@@ -688,7 +688,7 @@ function hotspotCustom(hotSpotDiv, args) {
         },
         "scene5": { //Dinh_1
             type: "equirectangular",
-            panorama: "https://i.ibb.co/35R1TVhB/Dinh-1-4.jpg", // Fixed path
+            panorama: "https://loc1506.sirv.com/Image360_final/Dinh_1_4.jpg", // Fixed path
             hotSpots: [
             //Pitch: -30.91344817148359, Yaw: 172.5966473201301
             {
@@ -735,7 +735,7 @@ function hotspotCustom(hotSpotDiv, args) {
         },
         "scene6": { //Dinh_2
             type: "equirectangular",
-            panorama: "https://i.ibb.co/TBsYcSSX/Dinh-2-6.jpg", // Fixed path
+            panorama: "https://loc1506.sirv.com/Image360_final/Dinh_2_6.jpg", // Fixed path
             // panorama: "pannellum/image/image_360/dinh2.jpg",
             hotSpots: [
             {
@@ -768,7 +768,7 @@ function hotspotCustom(hotSpotDiv, args) {
         },
         "scene7": { //Dinh_3
             type: "equirectangular",
-            panorama: "https://i.ibb.co/9H5ZPtLY/Dinh-3-9.jpg", // Fixed path
+            panorama: "https://loc1506.sirv.com/Image360_final/Dinh_3_9.jpg", // Fixed path
             hotSpots: [
             {
                 // di den dinh 2
@@ -814,7 +814,7 @@ function hotspotCustom(hotSpotDiv, args) {
         },
         "scene8": { //Dinh_4
             type: "equirectangular",
-            panorama: "https://i.ibb.co/h1m4WJ1F/Dinh-4-3.jpg", // Fixed path
+            panorama: "https://loc1506.sirv.com/Image360_final/Dinh_4_3.jpg", // Fixed path
             hotSpots: [
             {
                 // di den dinh 1
@@ -873,7 +873,7 @@ function hotspotCustom(hotSpotDiv, args) {
         },
         "scene9": { //Dinh_5
             type: "equirectangular",
-            panorama: "https://i.ibb.co/gZmkNBpX/Dinh-5-7.jpg", // Fixed path
+            panorama: "https://loc1506.sirv.com/Image360_final/Dinh_5_7.jpg", // Fixed path
             hotSpots: [
             {
                 // di den dinh 4
@@ -905,7 +905,7 @@ function hotspotCustom(hotSpotDiv, args) {
         },
         "scene10": { //Dinh_6
             type: "equirectangular",
-            panorama: "https://i.ibb.co/DH36M4zn/Dinh-6-4.jpg", // Fixed path
+            panorama: "https://loc1506.sirv.com/Image360_final/Dinh_6_4.jpg", // Fixed path
             hotSpots: [
             
             {
@@ -965,7 +965,7 @@ function hotspotCustom(hotSpotDiv, args) {
         },
         "scene11": { //Dinh_7
             type: "equirectangular",
-            panorama: "https://i.ibb.co/N67tnS6q/Dinh-7-4.jpg", // Fixed path
+            panorama: "https://loc1506.sirv.com/Image360_final/Dinh_7_4.jpg", // Fixed path
             hotSpots: [
             {
                 // di den dinh 4
@@ -1060,7 +1060,7 @@ function hotspotCustom(hotSpotDiv, args) {
         "scene12": { //Dinh_8
             type: "equirectangular",
             // panorama: "pannellum/image/image_360/Dinh_8.jpg", // Fixed path
-            panorama: "https://i.ibb.co/JFCRdsFJ/Dinh-8-6.jpg",
+            panorama: "https://loc1506.sirv.com/Image360_final/Dinh_8_6.jpg",
             hotSpots: [
             {
                 // di den dinh 7
@@ -1132,7 +1132,7 @@ function hotspotCustom(hotSpotDiv, args) {
         "scene13": { //Dinh_9
             type: "equirectangular",
             // panorama: "pannellum/image/image_360/Dinh_9.jpg", // Fixed path
-            panorama: "https://i.ibb.co/bjbgbvTJ/Dinh-9-4.jpg", 
+            panorama: "https://loc1506.sirv.com/Image360_final/Dinh_9_4.jpg", 
             hotSpots: [
             {
                 // di den dinh 6
@@ -1202,7 +1202,7 @@ function hotspotCustom(hotSpotDiv, args) {
         },
         "scene14": { //Dinh_10
             type: "equirectangular",
-            panorama: "https://i.ibb.co/HphvRBKr/Dinh-10-2.jpg", // Fixed path
+            panorama: "https://loc1506.sirv.com/Image360_final/Dinh_10_2.jpg", // Fixed path
             hotSpots: [
             {
                 // di den dinh 7
@@ -1261,7 +1261,7 @@ function hotspotCustom(hotSpotDiv, args) {
         "scene15": { //Dinh_11
             type: "equirectangular",
             // panorama: "pannellum/image/image_360/Dinh_11.jpg", // Fixed path
-            panorama: "https://i.ibb.co/39qZNmXD/Dinh-11-4.jpg",
+            panorama: "https://loc1506.sirv.com/Image360_final/Dinh_11_4.jpg",
             hotSpots: [
             {
                 // di den dinh 10
@@ -1306,7 +1306,7 @@ function hotspotCustom(hotSpotDiv, args) {
         },
         "scene16": { //Dinh_12
             type: "equirectangular",
-            panorama: "https://i.ibb.co/Wvy2v5Bg/Dinh-12-5.jpg", // Fixed path
+            panorama: "https://loc1506.sirv.com/Image360_final/Dinh_12_5.jpg", // Fixed path
             hotSpots: [
             {
                 // di den dinh 9
@@ -1351,7 +1351,7 @@ function hotspotCustom(hotSpotDiv, args) {
         },
         "scene17": { //Dinh_13
             type: "equirectangular",
-            panorama: "https://i.ibb.co/r2yKvMNG/Dinh-13-3.jpg",  // Fixed path
+            panorama: "https://loc1506.sirv.com/Image360_final/Dinh_13_3.jpg",  // Fixed path
             hotSpots: [
             {
                 // di den dinh 10
@@ -1409,7 +1409,7 @@ function hotspotCustom(hotSpotDiv, args) {
         },
         "scene18": { //Dinh_14
             type: "equirectangular",
-            panorama: "https://i.ibb.co/r2c7y6yV/Dinh-14-4.jpg", // Fixed path
+            panorama: "https://loc1506.sirv.com/Image360_final/Dinh_14_4.jpg", // Fixed path
             hotSpots: [
             {
                 // di den dinh 13
@@ -1454,7 +1454,7 @@ function hotspotCustom(hotSpotDiv, args) {
         },
         "scene19": { //Dinh_15
             type: "equirectangular",
-            panorama: "https://i.ibb.co/bgBtY4Ww/Dinh-15-3.jpg", // Fixed path
+            panorama: "https://loc1506.sirv.com/Image360_final/Dinh_15_3.jpg", // Fixed path
             hotSpots: [
             {
                 // di den dinh 12
@@ -1512,7 +1512,7 @@ function hotspotCustom(hotSpotDiv, args) {
         },
         "scene20": { //Dinh_16
             type: "equirectangular",
-            panorama: "https://i.ibb.co/5WTszXpS/Dinh-16-6.jpg", // Fixed path
+            panorama: "https://loc1506.sirv.com/Image360_final/Dinh_16_6.jpg", // Fixed path
             hotSpots: [
             {
                 // di den dinh 13
@@ -1544,7 +1544,7 @@ function hotspotCustom(hotSpotDiv, args) {
         },
         "scene21": { //Dinh_17
             type: "equirectangular",
-            panorama: "https://i.ibb.co/FGR9trR/Dinh-17-3.jpg", // Fixed path
+            panorama: "https://loc1506.sirv.com/Image360_final/Dinh_17_3.jpg", // Fixed path
             hotSpots: [
             {
                 // di den dinh 16
@@ -1577,7 +1577,7 @@ function hotspotCustom(hotSpotDiv, args) {
         "scene22": { //Dinh_18
             type: "equirectangular",
             // panorama: "pannellum/image/image_360/Dinh_18.jpg", // Fixed path
-            panorama: "https://i.ibb.co/hFH9H74R/Dinh-18-5.jpg", 
+            panorama: "https://loc1506.sirv.com/Image360_final/Dinh_18_5.jpg", 
             hotSpots: [
             {
                 // di den dinh 15
